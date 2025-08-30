@@ -69,3 +69,19 @@ button:active{
   background: #d78abc;
   color: white;
 }
+
+.display {
+  background: #e8f3f3;
+  border-radius: 20px;
+  padding: 1rem;
+  font-size: 2rem;
+  text-align: right;
+  color: #333;
+  transition: all 0.2s;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+.display::-webkit-scrollbar {
+  display: none;
+}
